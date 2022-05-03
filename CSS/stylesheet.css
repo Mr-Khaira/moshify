@@ -40,7 +40,7 @@ h3{
     font-size: 3rem;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
     body{
         font-size: 1.8rem;
     }
@@ -78,7 +78,7 @@ a{
     margin: 10px;
 }
 
-@media screen and (minwidth:1000px) {
+@media screen and (minwidth:900px) {
     .link-arrow{
         font-size: 1.8rem;
     }    
@@ -109,7 +109,7 @@ a{
     padding: 0.5rem 1.5rem;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
     .badge{
         font-size: 1.5rem;
     }
@@ -141,7 +141,7 @@ a{
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
     .list--tick .list__item {
         padding-left: 0;
     }
@@ -246,7 +246,7 @@ a{
     text-align: center;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
    .button {
        font-size: 1.5rem;
    }
@@ -283,7 +283,7 @@ a{
     margin: 4px;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
     .input {
         font-size: 1.5rem;
     }
@@ -366,7 +366,7 @@ a{
     margin-bottom: 2rem;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
     .plan__name {
         font-size: 1.8rem;
     }
@@ -444,8 +444,8 @@ a{
     bottom: 12px;
 }
 
-@media screen and (min-width:100px) {
-    .quote {
+@media screen and (min-width:900px) {
+    .quote .quote__text {
         font-size: 2rem;
     }
 
@@ -471,7 +471,7 @@ a{
     }
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:900px) {
     .grid--1x3 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -498,3 +498,13 @@ a{
     right: -32px;
 }
 
+@media screen and (min-width:768px) {
+    .testimonial > .quote__text,
+    .testimonial .quote__author {
+        font-size: 2.4rem;
+    }
+
+    .testimonial .quote {
+        margin-left: 6rem;
+    }
+}
