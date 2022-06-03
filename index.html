@@ -13,46 +13,75 @@
 </head>
 
 <body>
-    <section class="block">
-        <header class="block__header">
-            <h2>What are our Customers saying</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, natus?</p>
-        </header>
-        <div class="containor">
-            <div class="card testimonial">
-                <div class="grid grid--1x2">
-                    <div class="testimonial__image-containor">
-                        <img class="testimonial__image" src="/images/testimonial.jpg" alt="A happy, smiling customer">
-                        <span class="icon-container icon-containor--accent">
-                            <svg class="icon--small icon--white">
-                                <use xlink:href="/images/sprite.svg#quotes"></use>
-                            </svg>
-                        </span>
-                    </div>
-                    <blockquote class="quote">
-                        <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est quidem
-                            amet
-                            obcaecati
-                            mollitia impedit,
-                            nesciunt eligendi recusandae nobis incidunt.</p>
-                        <footer>
-                            <div class="media">
-                                <div class="media__image">
-                                    <svg class="icon icon--primary quote__line">
-                                        <use xlink:href="/images/sprite.svg#line"></use>
-                                    </svg>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title quote__author">Jhone Lumeo</h3>
-                                    <p class='quote__organization'>Mosh Company ceo</p>
-                                </div>
-                            </div>
-                        </footer>
-                    </blockquote>
+    <footer class="block block--dark footer">
+        <div class="containor grid footer__sections">
+            <section class="collapsible collapsible--expanded footer__section">
+                <header class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">PROUDTCS</h2>
+                    <svg class="icon icon--primary collapsible__chevron">
+                        <use xlink:href="images/sprite.svg#wordpress"></use>
+                    </svg>
+                </header>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#"> Website Hosting </a></li>
+                        <li><a href="#"> Free Automated Wordpress </a></li>
+                        <li><a href="#"> Migrations </a></li>
+                    </ul>
                 </div>
-            </div>
+            </section>
+            <section class="collapsible footer__section">
+                <header class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">COMPANY</h2>
+                    <svg class="icon icon--primary collapsible__chevron">
+                        <use xlink:href="images/sprite.svg#wordpress"></use>
+                    </svg>
+                </header>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <header class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
+                    <svg class="icon icon--primary collapsible__chevron">
+                        <use xlink:href="images/sprite.svg#wordpress"></use>
+                    </svg>
+                </header>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <header class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
+                    <svg class="icon icon--primary collapsible__chevron">
+                        <use xlink:href="images/sprite.svg#wordpress"></use>
+                    </svg>
+                </header>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#">Domain Checker</a></li>
+                        <li><a href="#">Domain Transfer</a></li>
+                        <li><a href="#">Free Domains</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer__brand">
+                <img src="images/logo.svg" alt="">
+                <p class="footer__copyright">Copyright 2022 Harkaran Singh Khaira</p>
+            </section>
         </div>
-    </section>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
