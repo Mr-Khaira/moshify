@@ -1,0 +1,23 @@
+{
+  "name": "moshify",
+  "version": "1.0.0",
+  "description": "This is the practice frontend project, from mosh bhai.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Khaira/moshify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Khaira/moshify/issues"
+  },
+  "homepage": "https://github.com/Mr-Khaira/moshify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
